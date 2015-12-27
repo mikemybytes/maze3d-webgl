@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>maze3d</title>
+		<meta charset="utf-8">
+		<style>
+			body {
+				margin: 0px;
+				background-color: #000000;
+				overflow: hidden;
+			}
+			#notification {
+				position: absolute;
+				left:50%;
+				bottom: 2em;
+				background-color: rgba(56,56,56,0.6);
+				color: white;
+				border-radius: 0.5em;
+				width: 400px;
+				margin-left: -200px;
+				text-align: center;
+				padding: 0.5em;
+				font-weight: bold;
+				font-size: x-large;
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r73/three.min.js"></script>
+		<!-- Chrome 44: https://github.com/mrdoob/three.js/issues/7514 -->
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r14/Stats.min.js"></script>
+	</head>
+	<body>
+		<script src="js/vendors/tween.js"></script>
+
+		<script src="js/globals.js"></script>
+		<script src=js/camera.js></script>
+		<script src=js/firewall.js></script>
+		<script src="js/maze3d.js"></script>
+		<script src=js/lights.js></script>
+		<script src=js/ball.js></script>
+		<script src=js/stats.js></script>
+		<script src=js/notification.js></script>
+		<script src=js/app.js></script>
+
+		<div id="workspace">
+
+		</div>
+
+	</body>
+</html>
