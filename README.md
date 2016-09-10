@@ -11,4 +11,5 @@ to display created world using WebGL. Maze layout is currently fixed, which mean
 the same.
 
 # Demo
-Coming soon!
+Available [here](http://static.mkowalski.net/demos/maze3d-webgl/)
+
